@@ -1,4 +1,4 @@
-export const useDictionary = ['notas', 'aulas', 'libro','clase', 'datos', 'tarea','grado','prueba',
+export const useDictionary = ['notas', 'aulas', 'libro','clase', 'datos', 'tarea','grado',
 'profe','lapiz','saber','mente','deber','amigo','jugar','papel','punto','sueño', 'honor', 'joven','ideas'];
 
 export const realDictionary = [
