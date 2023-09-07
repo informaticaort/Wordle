@@ -1,8 +1,9 @@
 export const useDictionary = ['notas', 'aulas', 'libro','clase', 'datos', 'tarea','grado',
-'profe','lapiz','saber','mente','deber','amigo','jugar','papel','punto','sueño', 'honor', 'joven','ideas'];
+'profe','lapiz','saber','mente','deber','amigo','jugar','papel','punto','sueño', 'honor', 'joven','ideas', 'aulas'];
 
 export const realDictionary = [
-  "vamos",
+  "vamos",'notas', 'aulas', 'libro','clase', 'datos', 'tarea','grado',
+'profe','lapiz','saber','mente','deber','amigo','jugar','papel','punto','sueño', 'honor', 'joven','ideas',
   "ahora", "estoy", "tengo", "estás", "puedo",
   "tiene", "bueno", "hacer", "todos", "puede", "sabes",
   "quién", "nunca", "dónde", "favor", "señor", "mejor",
