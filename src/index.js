@@ -56,7 +56,7 @@ function registerKeyboardEvents() {
           state.currentRow++;
           state.currentCol = 0;
         } else {
-          alert('Not a valid word.');
+          alert('Palabra no válida.');
         }
       }
     }
@@ -139,9 +139,9 @@ function revealWord(guess) {
 
   setTimeout(() => {
     if (isWinner) {
-      alert('Congratulations!');
+      alert('¡Felicidades!');
     } else if (isGameOver) {
-      alert(`Better luck next time! The word was ${state.secret}.`);
+      alert(`¡Mejor suerte la próxima! La palabra era: ${state.secret}.`);
     }
   }, 3 * animation_duration);
 }
