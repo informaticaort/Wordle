@@ -2,7 +2,7 @@ export const useDictionary = ['notas', 'aulas', 'libro','clase', 'datos', 'tarea
 'profe','lapiz','saber','mente','deber','amigo','jugar','papel','punto','sueño', 'honor', 'joven','ideas', 'aulas'];
 
 export const realDictionary = [
-  "vamos",'notas', 'aulas', 'libro','clase', 'datos', 'tarea','grado',
+  "vamos",'notas', 'aulas', 'libro','clase', 'datos', 'tarea','grado','dormi',
 'profe','lapiz','saber','mente','deber','amigo','jugar','papel','punto','sueño', 'honor', 'joven','ideas',
   "ahora", "estoy", "tengo", "estas", "puedo",
   "tiene", "bueno", "hacer", "todos", "puede", "sabes",
