@@ -1,6 +1,6 @@
 @font-face{
-  font-family: "Sunday Mango";
-  src: url("../assets/fonts/sunday_mango/Sunday\ Mango.otf")
+  font-family: "Super Candy";
+  src: url("../assets/fonts/Super\ Candy.ttf");
 }
 
 html,
@@ -37,7 +37,7 @@ body {
   align-items: start;
   margin-top: 5rem;
   width: 100%;
-  height: 72vh;
+  height: 60vh;
 }
 
 .grid {
@@ -107,7 +107,7 @@ body {
 
 hr {
   border-style: solid;
-  border-color: wh;
+  border-color: white;
   border-width: 1px;
 }
 
@@ -116,7 +116,8 @@ hr {
   justify-content: center;
   color: white;
   text-align: center;
-  font-family: 'Sunday Mango';
+  font-family: "Super Candy";
+  letter-spacing: .2em;
   font-size: 22px;
 }
 
