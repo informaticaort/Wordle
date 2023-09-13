@@ -1,6 +1,27 @@
+@font-face{
+  font-family: "Sunday Mango";
+  src: url("../assets/fonts/sunday_mango/Sunday\ Mango.otf")
+}
+
 html,
 body {
-  background: var(--default);
+  background: rgb(13, 23, 59);
+  background: linear-gradient(
+    90deg,
+    rgba(13, 23, 59, 1) 0%,
+    rgba(27, 27, 161, 1) 50%,
+    rgba(74, 155, 221, 1) 100%
+  );
+}
+
+#container {
+  margin: 2em 30em;
+  border-radius: 5%;
+  background-color: #aec8ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 :root {
@@ -29,8 +50,9 @@ body {
   width: 60px;
   height: 60px;
   border: 2px solid var(--empty);
+  border-radius: 15%;
   margin: 4px;
-  color: white;
+  color: #0d173b;
   text-transform: uppercase;
   display: grid;
   place-items: center;
@@ -67,9 +89,9 @@ body {
 }
 
 .title {
-  color: white;
+  color: #0d173b;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 3rem;
   margin-bottom: 0;
   position: relative;
@@ -85,7 +107,7 @@ body {
 
 hr {
   border-style: solid;
-  border-color: var(--empty);
+  border-color: wh;
   border-width: 1px;
 }
 
@@ -94,12 +116,14 @@ hr {
   justify-content: center;
   color: white;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Sunday Mango';
+  font-size: 22px;
 }
 
 .v-separator {
   margin-left: 1rem;
   margin-right: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .social-media-link {
