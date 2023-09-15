@@ -14,16 +14,6 @@ body {
   );
 }
 
-#container {
-  margin: 2em 30em;
-  border-radius: 5%;
-  background-color: #aec8ee;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 :root {
   --default: #121213;
   --empty: #3a3a3c;
@@ -49,10 +39,10 @@ body {
 .box {
   width: 60px;
   height: 60px;
-  border: 2px solid var(--empty);
+  border: 2px solid white;
   border-radius: 15%;
   margin: 4px;
-  color: #0d173b;
+  color: white;
   text-transform: uppercase;
   display: grid;
   place-items: center;
@@ -89,9 +79,10 @@ body {
 }
 
 .title {
-  color: #0d173b;
+  color: white;
   text-align: center;
-  font-family: "Roboto Slab", serif;
+  font-family: "Super Candy";
+  letter-spacing: .2em;
   font-size: 3rem;
   margin-bottom: 0;
   position: relative;
